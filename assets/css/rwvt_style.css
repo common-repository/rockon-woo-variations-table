@@ -1,0 +1,54 @@
+ .ron-woo-table-section{
+ overflow-x:auto;
+ }
+ 
+ .ron-woo-table-section table{
+    border: 1px solid #ddd;
+    color: #000;	
+	clear: both;
+    margin: 0!important;
+	border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+ }
+
+ .ron-woo-table-section table thead{
+	display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+ }	
+ 
+ .ron-woo-table-section table thead th{
+    background-color: #f5f5f5;
+    text-align: center;
+    text-transform: uppercase;
+	font-weight: 700;
+    vertical-align: middle;
+	border-bottom: 1px solid #ddd;   
+ }
+ 
+ .ron-woo-table-section table th, .ron-woo-table-section table td {
+    padding: 8px;
+    border: none;
+    background: 0 0;
+    text-align: left;
+    float: none!important;
+ }
+	
+ .ron-woo-table-section table tbody td {
+    text-align: center;
+	border-top: 1px solid #ddd;
+	vertical-align: top;
+ }
+ 
+ .ron-woo-table-section table  .odd td {
+    background-color: #f9f9f9;
+ }
+
+ .ron-woo-table-section table .row-hover tr:hover td {
+    background-color: #f3f3f3;
+ }
+ 
+ .ron-woo-table-section table tbody tr:first-child td {
+    border-top: 0;
+ }
